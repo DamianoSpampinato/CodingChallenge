@@ -1,0 +1,97 @@
+body{
+  background-image: url('MaterialeEsercizioLim/background.jpg');
+  background-size: 100% auto;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+header{
+padding-top: 100px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+img{
+  width: 40%;
+}
+
+h1{
+  color: rgba(0, 220, 0);
+  margin-bottom: 10px;
+}
+
+header, nav{ /*allineamento logo e navigatore*/
+  text-align: center;
+}
+
+
+nav{
+  background-color: rgba(0, 220, 0, 1.0);
+  width: 800px;
+  padding: 8px;
+}
+
+.arrow:before{
+  content: "\2192";
+}
+
+
+section>span{     /*Personalizzazione testo identificazione utente*/
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+
+
+
+.sec-user{        /*formattazione sezione utenti*/
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+
+.batteria-user1{    /*carica batteria*/
+  width: 250px;
+  height: 25px;
+  background-color: rgba(255, 252, 127);
+  border-radius: 4px;
+}
+
+.batteria-user2{    /*carica batteria*/
+  width: 500px;
+  height: 25px;
+  background-color: rgba(40, 252, 50);
+  border-radius: 4px;
+}
+
+.batteria-user3{    /*carica batteria*/
+  width: 150px;
+  height: 25px;
+  background-color: rgba(250, 0, 100);
+  border-radius: 4px;
+}
+
+section > *{   /*formattazione font solo per l'interno delle sezioni*/
+font-size: 14px;
+}
+
+
+*{            /*formattazione generale*/
+  box-sizing: border-box;
+}
+
+/* inserire tutti i display*/
+ .container{
+  display: inline-block;
+}
